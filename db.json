@@ -1,0 +1,118 @@
+{
+    "empleados": [
+        {
+            "id": 1,
+            "nombre": "John Smith",
+            "fecha_nacimiento": "1985-03-15",
+            "genero": "Masculino",
+            "direccion": "123 Main Street, Ciudad",
+            "telefono": "123-456-7890",
+            "email": "john.smith@example.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Alice Johnson",
+            "fecha_nacimiento": "1990-09-25",
+            "genero": "Femenino",
+            "direccion": "456 Elm Street, Ciudad",
+            "telefono": "987-654-3210",
+            "email": "alice.johnson@example.com"
+        },
+        {
+            "id": 3,
+            "nombre": "David Lee",
+            "fecha_nacimiento": "1988-06-05",
+            "genero": "Masculino",
+            "direccion": "789 Oak Street, Ciudad",
+            "telefono": "555-123-4567",
+            "email": "david.lee@example.com"
+        }
+    ],
+    "puestos": [
+        {
+            "id": 1,
+            "nombre": "Gerente de Ventas",
+            "descripcion": "Responsable de liderar el equipo de ventas y alcanzar los objetivos de ventas establecidos.",
+            "estado": "Activo",
+            "id_departamento": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Analista Financiero",
+            "descripcion": "Encargado de analizar y reportar la información financiera de la empresa.",
+            "estado": "Activo",
+            "id_departamento": 2
+        },
+        {
+            "id": 3,
+            "nombre": "Desarrollador de Software",
+            "descripcion": "Responsable de diseñar, desarrollar y mantener aplicaciones de software.",
+            "estado": "Activo",
+            "id_departamento": 3
+        }
+    ],
+    "departamentos": [
+        {
+            "id": 1,
+            "nombre": "Ventas",
+            "id_ubicacion": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Finanzas",
+            "id_ubicacion": 2
+        },
+        {
+            "id": 3,
+            "nombre": "Desarrollo de Software",
+            "id_ubicacion": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Recursos Humanos",
+            "id_ubicacion": 3
+        },
+        {
+            "id": 5,
+            "nombre": "Marketing",
+            "id_ubicacion": 2
+        }
+    ],
+    "solicitudes": [
+        {
+            "id": 1,
+            "id_puesto": 2,
+            "id_empleado": 1,
+            "fecha": "2023-06-10",
+            "estado": "Pendiente"
+        },
+        {
+            "id": 2,
+            "id_puesto": 3,
+            "id_empleado": 2,
+            "fecha": "2023-06-12",
+            "estado": "Aprobada"
+        },
+        {
+            "id": 3,
+            "id_puesto": 1,
+            "id_empleado": 3,
+            "fecha": "2023-06-14",
+            "estado": "Rechazada"
+        }
+    ],
+    "ubicaciones": [
+        {
+            "id": 1,
+            "nomrbe": "Alemania"
+        },
+        {
+            "id": 1,
+            "nomrbe": "España"
+        },
+        {
+            "id": 1,
+            "nomrbe": "Bélgica"
+        }
+    ]
+}
